@@ -2,11 +2,8 @@ name: Build Gradle
 
 on:
   push:
-    branches:
-      - '*'
+    branches: [ "**" ]
   pull_request:
-    branches:
-      - '*'
 
 env:
   REGISTRY: ghcr.io
